@@ -13,7 +13,7 @@ services:
     container_name: cmdi_editor
     restart: always
     environment:
-      - VIRTUAL_HOST=cmdi_editor.sd.di.huc.knaw.nl
+      - VIRTUAL_HOST=cmdi.sd.di.huc.knaw.nl
     volumes:
       - /home/robz/:/home
     networks:
