@@ -1,5 +1,5 @@
 function setEvents() {
-    var home = 'http://cmdi_editor.sd.di.huc.knaw.nl/ccf';
+    var home = 'http://cmdi.sd.di.huc.knaw.nl/ccf';
 
     $("#profileDataNavigator li").on("click", function () {
         if (!$(this).hasClass("profileDataActiveTab"))
