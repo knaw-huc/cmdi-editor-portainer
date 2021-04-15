@@ -1,0 +1,20 @@
+version: '2'
+
+networks:
+  cmdi_network:
+    external:
+      name: nginxproxynetwork
+
+services:
+  cmdi_editor:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: cmdi_editor
+    restart: always
+    environment:
+      - VIRTUAL_HOST=cmdi_editor.sd.di.huc.knaw.nl
+    volumes:
+      - /home/robz/:/home
+    networks:
+      - cmdi_network
