@@ -25,7 +25,7 @@
         <div id="header">
             CLARIAH CMDI Forms
         </div>
-        <div id="user">Rob Zeeman</div>
+        <div id="user">CMDI User</div>
         <div id="homeBtn"></div>
         <div id="content">
             {block name="content"}<div id="ccform"></div>{/block}
