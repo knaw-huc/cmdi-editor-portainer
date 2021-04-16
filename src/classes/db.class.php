@@ -56,7 +56,7 @@ class db {
     }
     
     function addRecord($title, $profile) {
-        $this->con->query("INSERT INTO metadata_records (name, profile_id, creator, creation_date) VALUES ('$title', $profile, 'Rob Zeeman', NOW())");
+        $this->con->query("INSERT INTO metadata_records (name, profile_id, creator, creation_date) VALUES ('$title', $profile, 'CMDI User', NOW())");
         $result = $this->con->query("SELECT LAST_INSERT_ID() AS last");
         $row = $result->fetch_assoc();
         return $row["last"];
