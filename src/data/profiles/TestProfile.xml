@@ -8,7 +8,7 @@
     </Header>
     <Component name="TestProfile" CardinalityMin="1" CardinalityMax="1">
         <Component name="MyComponent" CardinalityMin="1" CardinalityMax="1">
-            <Element name="myElement" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmdi/cues/1">
+            <Element name="myElement" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                 <AttributeList>
                     <Attribute name="myAttribute" ValueScheme="string" Required="true"/>
                 </AttributeList>
